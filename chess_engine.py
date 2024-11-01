@@ -463,9 +463,6 @@ class GameState():
                 elif self.board[new_r][new_c][0] != color:
                     moves.append(Move((r, c), (new_r, new_c), self.board))
 
-    """
-        Generate all possible castle moves for king
-    """
     def getCastleMoves(self , row , col , moves):
         if self.squareUnderAttack(row , col , ):
             return 
