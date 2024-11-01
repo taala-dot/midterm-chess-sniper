@@ -96,7 +96,7 @@ def main():
                 drawText(screen, "Актар утту ")
         elif gs.stalemate:
             gameOver = True
-            drawText(screen, "Пат")
+            drawText(screen, "PAT")
 
         clock.tick(MAX_FPS )
         pg.display.flip()
