@@ -483,7 +483,6 @@ class GameState():
                 moves.append(Move((row , col) , (row , col - 2) , self.board , isCastleMove = True))
 
 
-    
     def checkForPinsAndChecks(self):
         pins = []
         checks = []
